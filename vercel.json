@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/wps-reminder",
+      "schedule": "0 6 3 * *"
+    },
+    {
+      "path": "/api/cron/expiry-check",
+      "schedule": "0 7 * * *"
+    }
+  ]
+}
