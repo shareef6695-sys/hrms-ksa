@@ -9,17 +9,18 @@
     "db:apply": "psql $DATABASE_URL -f schema.sql"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "3.670.0",
+    "@aws-sdk/s3-request-presigner": "3.670.0",
     "next": "14.2.5",
+    "pdf-lib": "1.17.1",
+    "pg": "8.11.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "pg": "8.11.3",
-    "zod": "3.23.8",
-    "pdf-lib": "1.17.1",
-    "@aws-sdk/client-s3": "3.670.0",
-    "@aws-sdk/s3-request-presigner": "3.670.0"
+    "zod": "3.23.8"
   },
   "devDependencies": {
-    "@types/node": "20.11.30",
+    "@types/node": "^20.11.30",
+    "@types/pg": "^8.15.5",
     "@types/react": "18.2.66",
     "typescript": "5.5.4"
   }
